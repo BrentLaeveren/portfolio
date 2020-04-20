@@ -1,0 +1,68 @@
+/* in stylish-portfolio.min.css wijzig je NIETS */
+/* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+
+
+
+header.masthead{
+
+    background:linear-gradient(to bottom,rgba(92,77,66,.7) 0,rgba(92,77,66,.7) 100%),url(../img/masthead-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+:root{
+    --light-blue :#6DAFFE;
+    --dark-blue :#437FC7;
+    --gray :#EDF6FF;
+    --white :#FFFFFF;
+}
+
+.svg{
+padding: 20px;
+}
+.punt {
+    list-style-type: none;
+}
+
+.bg-primary{
+    background:linear-gradient(to bottom,var(--light-blue) 0,var(--dark-blue) 100%) !important;
+}
+
+#portfolio {
+    background-color: var(--gray);
+}
+
+.btn-primary{
+    background-color: var(--light-blue) !important;
+    border: 1px solid var(--dark-blue) !important;
+}
+
+.divider {
+    border-color: var(--dark-blue) !important;
+}
+
+.active{
+    color: var(--light-blue) !important;
+}
+
+.navbar-scrolled {
+    background-color: var(--gray) !important;
+}
+
+.portfolio-box-caption {
+    background:linear-gradient(to bottom,var(--light-blue) 0,var(--dark-blue) 100%) !important;
+}
+
+.bg-light {
+    background-color: var(--gray) !important;
+}
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--light-blue) !important;
+}
+.logo{
+ transform: scale(0.6);
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+}
