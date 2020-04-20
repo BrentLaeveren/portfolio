@@ -1,0 +1,57 @@
+/*groot scherm*/
+
+body {
+    background-color: #ccc;
+    color: #000;
+    background-image: url(../images/patroon.png);
+}
+
+div {
+    max-width: 850px;
+    margin: auto;
+    background-color: #fff;
+    padding: 25px;
+}
+
+figure {
+    width: 640px;
+    /*margin: 20px auto;*/
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    flex: 1 1 100%;
+    border: 5px solid #84CEEB;
+    background-color: #5AB9AE;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5680E9;
+    flex: 1 1 100%;
+}
+
+nav a:visited {
+    color: #C1C8E4;
+}
+
+nav a:link {
+    color: #8860D0;
+}
+
+nav a:hover {
+    color: #8860D0;
+    background-color: #C1C8E4;
+}
+
+header,
+footer,
+article,
+section {
+    color: white;
+}
